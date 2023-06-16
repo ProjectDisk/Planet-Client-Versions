@@ -1,0 +1,31 @@
+body {
+background-color: #262626;
+text-align: center;
+}
+
+@font-face {
+font-family: Comfortaa;
+src:url(Fonts/Comfortaa/static/Comfortaa-Light.ttf);
+}
+
+h1 {
+font-family: Comfortaa;
+color: #6d4e46;
+}
+
+h2 {
+font-family: Comfortaa;
+color: #6d4e46;
+}
+
+button {
+font-family: Comfortaa;
+font-size: 20px;
+border-radius: 50px;
+width: 150px;
+height: 50px;
+margin: 3px 3px 3px 3px;
+color: white;
+background: linear-gradient(270deg, #6d4e46, #2b140e);
+border: solid 2px #2b140e;
+}

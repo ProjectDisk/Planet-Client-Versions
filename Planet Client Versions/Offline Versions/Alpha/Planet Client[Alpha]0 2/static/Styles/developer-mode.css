@@ -1,0 +1,68 @@
+body {
+background-color: #262626;
+}
+
+@font-face {
+font-family: Comfortaa;
+src:url(Fonts/Comfortaa/static/Comfortaa-Light.ttf);
+}
+
+h1 {
+font-family: Comfortaa;
+color: yellow;
+}
+
+h2 {
+font-family: Comfortaa;
+color: yellow;
+margin: 0 0 20px 86px;
+}
+
+button {
+font-family: Comfortaa;
+font-size: 20px;
+border-radius: 50px;
+width: 110px;
+height: 30px;
+margin: 3px 3px 3px 3px;
+color: white;
+background: linear-gradient(270deg, #fce094, #fac331);
+border: solid 2px #fac331;
+}
+
+label {
+font-family: Comfortaa;
+color: yellow;
+font-size: 18px;
+}
+
+input {
+font-family: Comfortaa;
+background: linear-gradient(270deg, #fce094, #fac331);
+color: white;
+font-size: 18px;
+border: solid 2px #fac331;
+border-radius: 20px;
+width: 350px;
+height: 20px;
+margin: 0 0 0 0;
+}
+
+.PasswordMenu {
+border: solid 2px #fac331;
+border-radius: 10px 10px 100px 10px;
+width: 595px;
+height: 250px;
+}
+
+.BackButton {
+font-family: Comfortaa;
+font-size: 20px;
+border-radius: 50px;
+width: 150px;
+height: 50px;
+margin: 0 0 0 103px;
+color: white;
+background: linear-gradient(270deg, #fce094, #fac331);
+border: solid 2px #fac331;
+}

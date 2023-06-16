@@ -1,0 +1,57 @@
+body {
+background-color: #262626;
+text-align: center;
+}
+
+@font-face {
+font-family: Comfortaa;
+src:url(Fonts/Comfortaa/static/Comfortaa-Light.ttf);
+}
+
+h1 {
+font-family: Comfortaa;
+color: lime;
+}
+
+h2 {
+font-family: Comfortaa;
+color: lime;
+}
+
+button {
+font-family: Comfortaa;
+font-size: 20px;
+border-radius: 10px;
+width: 200px;
+height: 200px;
+margin: 3px 3px 3px 3px;
+color: white;
+background: linear-gradient(270deg, #33ff33, #439c43);
+border: solid 2px #439c43;
+}
+
+details {
+font-family: Comfortaa;
+color: lime;
+font-size: 18px;
+}
+
+.WorkingMenu {
+background: linear-gradient(270deg, #33ff33, #439c43);
+border: solid 2px #439c43;
+border-radius: 0 10px 10px 0;
+width: 133px;
+color: white;
+}
+
+.BackButton {
+font-family: Comfortaa;
+font-size: 20px;
+border-radius: 50px;
+width: 150px;
+height: 50px;
+margin: 3px 3px 3px 3px;
+color: white;
+background: linear-gradient(270deg, #33ff33, #439c43);
+border: solid 2px #439c43;
+}

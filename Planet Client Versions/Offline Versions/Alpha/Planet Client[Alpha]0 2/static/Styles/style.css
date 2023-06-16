@@ -1,0 +1,52 @@
+body {
+background-color: #262626;
+text-align: center;
+}
+
+@font-face {
+font-family: Comfortaa;
+src:url(Fonts/Comfortaa/static/Comfortaa-Light.ttf);
+}
+
+h1 {
+font-family: Comfortaa;
+color: blue;
+}
+h2 {
+font-family: Comfortaa;
+color: blue;
+}
+h3 {
+font-family: Comfortaa;
+color: blue;
+}
+
+button {
+color: white;
+background: linear-gradient(270deg, indigo, navy);
+border: solid 2px navy;
+font-family: Comfortaa;
+font-size: 20px;
+border-radius: 50px;
+width: 150px;
+height: 50px;
+margin: 3px 3px 3px 3px;
+}
+
+details {
+font-family: Comfortaa;
+color: blue;
+font-size: 18px;
+}
+
+.WorkingMenu {
+background: linear-gradient(270deg, indigo, navy);
+border: solid 2px navy;
+border-radius: 0 10px 10px 0;
+width: 124px;
+color: white;
+}
+
+.WordWorking {
+color: white;
+}

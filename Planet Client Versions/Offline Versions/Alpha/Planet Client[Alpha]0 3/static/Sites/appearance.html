@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Planet Client</title>
+      <link rel="shortcut icon" href="file:../Images/favicon.ico">
+      <link rel="stylesheet" id="theme" href="file:../Themes/Default/default.css">
+      <script src="file:../Code/themestyle.js"></script>
+   </head>
+   <body>
+      <h1>Appearance</h1>
+      <button onclick="window.location.assign('file:settings.html');">Back</button>
+      <br>
+      <div class="section">
+         <h2>Preset Themes</h2>
+         <div>
+            <button class="bigButton" onclick="changeTheme('file:../Themes/Amoled/amoled.css', 0);">Amoled</button>
+            <button class="bigButton" onclick="changeTheme('file:../Themes/Default/default.css', 0);">Default</button>
+            <button class="bigButton" onclick="changeTheme('file:../Themes/Kermit/kermit.css', 0);">Kermit</button>
+            <br>
+            <button class="bigButton" onclick="changeTheme('file:../Themes/Pink Sky/pink-sky.css', 0);">Pink Sky</button>
+            <button class="bigButton" onclick="changeTheme('file:../Themes/Space/space.css', 0);">Space</button>
+         </div>
+         <br>
+         <button onclick="alert('This doesn\'t work. I had to get this update out fast because I promised but I couldn\'t make it work. Hopfully I can fix this issue. Thanks!\n-Tb');">Export Theme</button>
+         <button onclick="importTheme();">Import Theme</button>
+         <button onclick="resetTheme();">Reset Theme</button>
+         <button onclick="savePresetTheme();"><span style="font-size: 15px;">Save Preset Theme</span></button>
+      </div>
+   </body>
+</html>

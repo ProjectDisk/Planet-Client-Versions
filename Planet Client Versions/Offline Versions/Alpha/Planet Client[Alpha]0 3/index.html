@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Planet Client</title>
+      <link rel="shortcut icon" href="file:static/Images/favicon.ico">
+      <link rel="stylesheet" id="theme" href="file:static/Themes/Default/default.css">
+      <script src="file:static/Code/themestyle.js"></script>
+   </head>
+   <body onload="startTime()">
+      <h1>Home</h1>
+      <div>
+         <button onclick="window.location.assign('file:static/Sites/about.html');">About</button>
+         <br>
+         <button onclick="window.location.assign('file:static/Sites/apps.html');">Apps</button>
+         <br>
+         <button onclick="window.location.assign('file:static/Sites/credits.html');">Credits</button>
+         <br>
+         <button onclick="alert('This doesn\'t work. I had to get this update out fast because I promised but I couldn\'t make it work. Hopfully I can fix this issue. Thanks!\n-Tb');">Exploits</button>
+         <br>
+         <button onclick="window.location.assign('https://sites.google.com/view/planet-client/news');">News</button>
+         <br>
+         <button onclick="alert('This doesn\'t work. I had to get this update out fast because I promised but I couldn\'t make it work. Hopfully I can fix this issue. Thanks!\n-Tb');"><span style="font-size: 19px;">Planet Browser</span></button>
+         <br>
+         <button onclick="window.location.assign('file:static/Sites/settings.html');">Settings</button>
+         <br>
+         <button onclick="window.location.assign('https://sites.google.com/view/planet-client/tutorials');">Tutorials</button>
+      </div>
+      <div>
+         <img class="websiteButtonPC" src="file:static/Images/planetclient.png" width="75px" height="75px" onclick="window.location.assign('https://sites.google.com/view/planet-client');">
+         <img class="websiteButtonPD" src="file:static/Images/projectdisk.png" width="75px" height="75px" onclick="window.location.assign('https://sites.google.com/view/project-disk');">
+         <br>
+         <div style="display: inline-flex;">
+            <div id="clock" class="clock"></div>
+            <div id="onlineIndicator" class="onlineIndicatorChecking"></div>
+         </div>
+      </div>
+      <script src="file:static/Code/infobar.js"></script>
+   </body>
+</html>

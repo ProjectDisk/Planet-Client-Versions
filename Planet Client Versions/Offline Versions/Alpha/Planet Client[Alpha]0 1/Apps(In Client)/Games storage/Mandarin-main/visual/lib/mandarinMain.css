@@ -1,0 +1,96 @@
+body {
+    overflow: hidden;
+}
+.css {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    animation: color 3s infinite linear;
+    text-shadow: 0 0 10px #000 a;
+    transition: all 0.5s;
+}
+.css:nth-child(1) {
+    font-size: 100px;
+    animation-delay: 0s;
+    opacity: 0.1;
+}
+.css:nth-child(2) {
+    font-size: 110px;
+    animation-delay: -0.3s;
+    opacity: 0.2;
+}
+.css:nth-child(3) {
+    font-size: 120px;
+    animation-delay: -0.6s;
+    opacity: 0.3;
+}
+.css:nth-child(4) {
+    font-size: 130px;
+    animation-delay: -0.9s;
+    opacity: 0.4;
+}
+.css:nth-child(5) {
+    font-size: 140px;
+    animation-delay: -1.2s;
+    opacity: 0.5;
+}
+.css:nth-child(6) {
+    font-size: 150px;
+    animation-delay: -1.5s;
+    opacity: 0.6;
+}
+.css:nth-child(7) {
+    font-size: 160px;
+    animation-delay: -1.8s;
+    opacity: 0.7;
+}
+.css:nth-child(8) {
+    font-size: 170px;
+    animation-delay: -2.1s;
+    opacity: 0.8;
+}
+.css:nth-child(9) {
+    font-size: 180px;
+    animation-delay: -2.4s;
+    opacity: 0.9;
+}
+.css:nth-child(10) {
+    font-size: 190px;
+    animation-delay: -2.7s;
+    opacity: 1;
+}
+@keyframes color {
+    0% {
+        color: #ef8f8f;
+    }
+    10% {
+        color: #efc98f;
+    }
+    20% {
+        color: #dcef8f;
+    }
+    30% {
+        color: #a3ef8f;
+    }
+    40% {
+        color: #8fefb6;
+    }
+    50% {
+        color: #8fefef;
+    }
+    60% {
+        color: #8fb6ef;
+    }
+    70% {
+        color: #a38fef;
+    }
+    80% {
+        color: #dc8fef;
+    }
+    90% {
+        color: #ef8fc9;
+    }
+    100% {
+        color: #ef8f8f;
+    }
+}

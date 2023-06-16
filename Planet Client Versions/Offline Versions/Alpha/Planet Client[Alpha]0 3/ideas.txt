@@ -1,0 +1,51 @@
+These are ideas I had for Planet Client[Alpha]0.3 but I didn't have time to implement it. You can delete this file, it's not that intresting.
+
+Ideas for Planet Client
+
+1. Make a shortcut menu that the user can create or delete.
+/Folders
+/Create & destroy shortcuts
+/Reset the whole shortcut menu
+/Rename shortcuts
+/Save shortcuts
+/Export & import shortcuts
+/Pre shortcut folder with simple stuff in it that the user can have the option to delete
+/Change color of default folder & shortcut image using Hex colors, RGB colors and also be able to revert back to the orgiinal image/color
+/Change image
+/Link to urls
+/Options for putting a shortcut or folder shortcut on all pages, specific pages, all except any app pages, or none (default set to none)
+/The ability to repeat a url on all pages, specific pages, all exept any app pages whenever you get on that page. Useful for when you want to do a bookmarklet or other stuff and repeat on selected shortcuts or folders
+/Put a folder in a folder
+/The ability to orginize your folders or pages by name or none
+/In case theres a problem, make a page that can't be affected by shortcuts for example: Having a repeating shortcut that sends you to a page over and over and is set on all pages. Then you can go to the page and have access to turn off all repeating shortcuts or folders
+
+2. Make a chat.
+/Create rooms
+/Delete rooms
+/Owner can set a limit of people in a room
+/Invite people with a code
+/Change the invite code
+/Be able to message any files and images
+/Be able to download shared files in the chat
+/Give a warning to the user when reciving files if they have the setting Warnings: on
+/Be able to change your account image and name at any time
+/Be able to change the background with themes or their own custom image
+/Import and export a file that has the users stuff in case if they have to use a different computer/laptop
+/Be able to join many rooms at once
+/Have a menu that shows all of your rooms
+?Maybe be able to have a voice mode
+/Be able to screenshare
+
+3. MediaBox.
+/Be able to put YouTube URLs and run them on the web
+/Get the Video, Title, and origin URL
+/Let the user go to the original video
+/Let the user be able to go to fullscrean or play it in picture in picture instead
+/Let the user go back to the page by reloading the page
+/Let the user be able to download the video in a mp4 format
+/Give the user the option to be able to loop the video
+?Maybe use LocalStorage in order to save the last 10 videos they watched
+?Let the user be able to go to those videos and get the Video, Title, and origin URL
+?Let the user remove specific videos and let the user be able to turn off history so it doesn't save it on LocalStorage
+
+-Tb

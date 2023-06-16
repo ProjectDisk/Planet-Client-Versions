@@ -1,0 +1,91 @@
+body {
+background-color: #262626;
+text-align: center;
+}
+
+@font-face {
+font-family: Comfortaa;
+src:url(Fonts/Comfortaa/static/Comfortaa-Light.ttf);
+}
+
+h1 {
+font-family: Comfortaa;
+color: yellow;
+}
+
+h2 {
+font-family: Comfortaa;
+color: yellow;
+}
+
+h3 {
+font-family: Comfortaa;
+color: yellow;
+}
+
+label {
+font-family: Comfortaa;
+color: yellow;
+font-size: 18px;
+}
+
+input {
+background-color: yellow;
+}
+
+.ButtonOthers {
+font-family: Comfortaa;
+font-size: 20px;
+border-radius: 50px;
+width: 150px;
+height: 50px;
+margin: 3px 3px 3px 3px;
+color: white;
+background: linear-gradient(270deg, #fce094, #fac331);
+border: solid 2px #fac331;
+}
+
+.DefaultButton {
+font-family: Comfortaa;
+font-size: 20px;
+border-radius: 50px;
+width: 150px;
+height: 50px;
+color: white;
+background: linear-gradient(#fce094, #fac331);
+border: solid 2px #fac331;
+}
+
+.SimplisticButton {
+font-family: Comfortaa;
+font-size: 20px;
+border-radius: 50px;
+width: 150px;
+height: 50px;
+color: white;
+background: linear-gradient(#fce094, #fac331);
+border: solid 2px #fac331;
+filter: saturate(200%);
+}
+
+.StickyNoteButton {
+font-family: Comfortaa;
+font-size: 20px;
+border-radius: 50px;
+width: 150px;
+height: 50px;
+color: black;
+background-color: #FFFF99;
+border: solid 2px black;
+}
+
+.PinkSkyButton {
+font-family: Comfortaa;
+font-size: 20px;
+border-radius: 50px;
+width: 150px;
+height: 50px;
+color: white;
+background: linear-gradient(pink, plum);
+border: solid 2px plum;
+}

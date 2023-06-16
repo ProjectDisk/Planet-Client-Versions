@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>MANDARIN</title>
+    <link rel="stylesheet" href="../lib/w3.css">
+    <html translate="no">
+</head>
+<body>
+<h1 class="w3-center w3-animate-zoom">MANDARIN PROXIES</h1>
+<div class="w3-panel w3-green w3-center">
+    <h3>Corrosion</h3>
+    <p>Type Your Search In The Box Below. Make Sure To Include (https:// OR http://)</p>
+    <input id="corrosion">
+    <button onclick="corrosionSearch(this)">Search</button>
+    <br>
+    <br>
+</div>
+<script>
+    function corrosionSearch() {
+        const search = document.getElementById("corrosion").value;
+        window.location.replace("../proxy/corrosion/go/" + search);
+    }
+</script>
+</body>

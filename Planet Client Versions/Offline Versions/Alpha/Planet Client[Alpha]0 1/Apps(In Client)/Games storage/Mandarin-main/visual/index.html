@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+<head>
+    <title>MANDARIN</title>
+    <link rel="stylesheet" href="lib/w3.css">
+    <link rel="stylesheet" href="lib/hover.css">
+    <link rel="stylesheet" href="lib/mandarinMain.css">
+</head>
+<body>
+<div id="MANDARIN"></div>
+<script>
+    for (let i = 0; i < 10; i++) {
+        const bn = document.createElement("h1");
+        bn.innerText = "beta";
+        bn.classList.add("css");
+        bn.classList.add("w3-center");
+        document.getElementById("MANDARIN").append(bn);
+    }
+</script>
+<div class="w3-center w3-animate-zoom">
+    <h1 class="w3-cursive">WELCOME TO MANDARIN</h1>
+    <button class="hvr-grow-rotate w3-button w3-white w3-border w3-border-blue" onclick="html5Games(this)">HTML5 GAMES
+    </button>
+    <button class="hvr-grow-rotate w3-button w3-white w3-border w3-border-blue" onclick="unblockedIOGames(this)">
+        UNBLOCKED IO GAMES
+    </button>
+    <button class="hvr-grow-rotate w3-button w3-white w3-border w3-border-blue" onclick="searchProxy(this)">SEARCH
+        PROXY
+    </button>
+</div>
+<a href="https://github.com/TacoError/Mandarin"><h6 class="w3-animate-fading w3-bottom w3-center">Github</h6></a>
+<script src="lib/particles.js"></script>
+<div id="particles">
+<script>
+    particlesJS.load("particles", "lib/particles.json");
+    function html5Games() {
+        window.location.replace("games/html5");
+    }
+
+    function unblockedIOGames() {
+        window.location.replace("games/unblockedIO");
+    }
+
+    function searchProxy() {
+        window.location.replace("proxies/");
+    }
+</script>
+</body>

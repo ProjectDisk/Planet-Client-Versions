@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>MANDARIN</title>
+    <html translate="no">
+</head>
+<body>
+<h1>MANDARIN IO GAMES</h1>
+<div id="buttons"></div>
+<script>
+    const games = [
+        "Krunker.html",
+    ];
+    games.forEach(game => {
+        const button = document.createElement("button");
+        button.innerText = game.replace(".html", "");
+        button.onclick = function () {
+            window.location.replace(game);
+        };
+        const buttons = document.getElementById("buttons");
+        buttons.appendChild(button);
+    });
+</script>
+</body>
